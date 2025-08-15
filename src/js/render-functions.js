@@ -40,6 +40,7 @@ export function clearGallery() {
 export function showLoader() {
   loaderEl.classList.remove('hidden');
 }
+
 export function hideLoader() {
   loaderEl.classList.add('hidden');
 }
@@ -47,6 +48,7 @@ export function hideLoader() {
 export function showLoadMoreButton() {
   loadMoreBtn.classList.remove('hidden');
 }
+
 export function hideLoadMoreButton() {
   loadMoreBtn.classList.add('hidden');
 }
