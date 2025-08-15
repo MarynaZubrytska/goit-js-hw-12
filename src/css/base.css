@@ -27,6 +27,64 @@ body {
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
+}
+
+input,
+textarea {
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 32px;
+}
+
+.form-input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #808080;
+  padding: 8px 16px;
+  border-radius: 4px;
+  width: 272px;
+  border: 1px solid #808080;
+}
+
+.form-input:hover {
+  border: 1px solid #000000;
+}
+
+.form-input:focus,
+.form-input:active {
+  border: 1px solid #4E75FF;
+  color: #2E2F42;
+}
+
+.input-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 91px;
+  height: 40px;
+  background-color: #4e75ff;
+  cursor: pointer;
+}
+
+.input-btn:hover,
+.input-btn:focus {
+  background-color: #6c8cff;
 }
